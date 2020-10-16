@@ -1,0 +1,73 @@
+floatybox
+  Float your way through perilous terrain in this endless side-scoller game.
+
+Usage
+  floatybox
+  floatybox [--colour=<on|off|auto>] -h|--help
+  floatybox [--colour=<on|off|auto>] -v|--version
+  floatybox [--colour=<on|off|auto>] --license
+
+Options
+  --colour=<on|off|auto> [auto]
+    Print the program output with colour either on, off, or auto based on if
+    stdout is a tty, the default value is 'auto'.
+  -h, --help
+    Print the help output.
+  --license
+    Print the program license.
+  -v, --version
+    Print the program version.
+
+Key Bindings
+  q, Q, <ctrl-c>
+    quit the program
+  <ctrl-z>
+    suspend the program
+  <ctrl-l>
+    force screen redraw
+  <backspace>
+    reset game and settings to default state
+  <mouse-left>, <up>, <space>, w, k
+    increase velocity
+  ?
+    show key bindings
+  c
+    toggle enable/disable colour
+  s
+    super slow-motion
+  d
+    slow-motion
+  ??????????
+    secret 1
+  ??????????
+    secret 2
+
+Examples
+  floatybox
+    run the program
+  floatybox --help --colour=off
+    print the help output, without colour
+  floatybox --help
+    print the help output
+  floatybox --version
+    print the program version
+  floatybox --license
+    print the program license
+
+Exit Codes
+  0
+    normal
+  1
+    error
+
+Meta
+  The version format is 'major.minor.patch (day.month.year)'.
+
+Repository
+  https://github.com/octobanana/floatybox.git
+
+Homepage
+  https://octobanana.com/software/floatybox
+
+Author
+  Brett Robinson (octobanana) <octobanana.dev@gmail.com>

@@ -72,6 +72,7 @@ SOFTWARE.
 #include <sstream>
 #include <algorithm>
 #include <functional>
+#include <optional>
 #include <unordered_map>
 
 namespace aec = OB::Term::ANSI_Escape_Codes;

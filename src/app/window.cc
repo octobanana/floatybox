@@ -72,6 +72,7 @@ SOFTWARE.
 #include <sstream>
 #include <algorithm>
 #include <functional>
+#include <optional>
 #include <unordered_map>
 
 Buffer::Buffer(Size const size, Cell const& cell) {
